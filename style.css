@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    position:sticky;
+    background-color: #232323;
+    height:80px;
+    width:100%;
+    top:0;
+}
+h1{
+    color:white;
+    position:absolute;
+    left:120px;
+    top:0;
+    line-height: 80px;
+    position: fixed;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header li{
+    display:inline;
+    margin-right:4vw;
+}
+header ul{
+    position:absolute;
+    right:5vw;
+    top:0;
+    line-height:80px;
+    position: fixed;
+}
+.logo {
+    position: fixed;
+    top: 5px;
+    left: 50px;
+  }
+  .logo img {
+    width: 60px;
+    height: auto;
+  }
+  .news{
+    background-color: antiquewhite;
+    color:white; 
+    height:95vh;
+    margin:30px;
+    background-image: url("images/IMG_9814.JPG");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+  }
+  .news h2{
+    font-size:60px;
+    margin-top:60px;
+  }
+  .news p{
+    color:#FEF7E6;
+    font-size:25px;
+    margin:25px 0;
+  }
+  .news a {
+    color:white;
+    text-decoration: none;
+    border: 1px solid #ACACAC;
+    padding:10px 20px;
+    border-radius: 5px;
+}
+footer {
+  background-color:#000000;
+  color:#B7B7B7;
+  height:60px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.photo{
+  display:flex;
+  background-size:800px;
+  width: 600px;
+  height: 800px;
+}
+.photo{
+  width:auto;
+}
+.self {
+  width:auto;
+  background-color: white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+  padding-left:17em;
+}
+.self h2 {
+  font-size:40px;
+  margin-bottom: 30px;
+}
+.self p {
+  text-align: center;
+  line-height: 2em;
+}
+.product {
+  display:flex;
+  background-color: #ede9db;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 180px 80px;
+}
